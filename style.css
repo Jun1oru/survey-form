@@ -37,6 +37,7 @@ body {
   width: 49%;
   margin: auto;
   text-align: right;
+  line-height: 50px;
 }
 #name-div-right {
   display: inline-block;
@@ -50,6 +51,7 @@ body {
   width: 49%;
   margin: auto;
   text-align: right;
+  line-height: 50px;
 }
 #email-div-right {
   display: inline-block;
@@ -63,6 +65,7 @@ body {
   width: 49%;
   margin: auto;
   text-align: right;
+  line-height: 50px;
 }
 #number-div-right {
   display: inline-block;
@@ -102,6 +105,7 @@ body {
   width: 49%;
   margin: auto;
   text-align: right;
+  line-height: 25px;
 }
 #dropdown-right {
   display: inline-block;
@@ -126,10 +130,63 @@ body {
   vertical-align: middle;
   width: 49%;
   margin: auto;
+  text-align: right;
+  line-height: 25px;
 }
 #radio-div-right {
   display: inline-block;
   vertical-align: middle;
   width: 49%;
   margin: auto;
+}
+#checkbox-div-left {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  margin: auto;
+  text-align: right;
+  line-height: 15px;
+}
+#checkbox-p {
+  font-size: 100%;
+  color: white;
+}
+#checkbox-div-right {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  margin: auto;
+}
+#checkbox1 {
+  margin: 0 0 0 5px;
+}
+#checkbox-label1 {
+  font-size: 75%;
+  color: white;
+}
+#checkbox-label2 {
+  font-size: 75%;
+  color: white;
+}
+#textarea-div-left {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  margin: auto;
+  text-align: right;
+}
+#textarea-p {
+  color: white;
+}
+#textarea-div-right {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  margin: auto;
+}
+#submit-div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
 }
