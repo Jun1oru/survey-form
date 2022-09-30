@@ -1,0 +1,135 @@
+html {
+  height: 100%;
+}
+body {
+  background-image: url("https://img.freepik.com/free-vector/gradient-abstract-football-background_52683-66767.jpg?w=2000");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+#div-box {
+  border: 2px solid skyblue;
+  border-radius: 50%;
+}
+#title {
+  font-size: 28px;
+  text-align: center;
+  color: white;
+}
+#description {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+#form-box {
+  width: 50%;
+  margin: auto;
+}
+#input-div {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+#name-div-left {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  margin: auto;
+  text-align: right;
+}
+#name-div-right {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  margin: auto;
+}
+#email-div-left {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  margin: auto;
+  text-align: right;
+}
+#email-div-right {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  margin: auto;
+}
+#number-div-left {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  margin: auto;
+  text-align: right;
+}
+#number-div-right {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  margin: auto;
+}
+#name-label {
+  font-size: 34px;
+  color: white;
+  margin: 0 10px 0 0;
+}
+#email-label {
+  font-size: 34px;
+  color: white;
+  margin: 0 10px 0 0;
+}
+#number-label {
+  font-size: 34px;
+  color: white;
+  margin: 0 10px 0 0;
+}
+#name {
+  width: 75%;
+}
+#email {
+  width: 75%;
+}
+#number {
+  width: 75%;
+}
+#dropdown-div {
+}
+#dropdown-left {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  margin: auto;
+  text-align: right;
+}
+#dropdown-right {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  margin: auto;
+}
+
+#dropdown-p {
+  color: white;
+  margin: 0 10px 0 0;
+}
+
+#dropdown {
+  width: 75%;
+}
+#radio-div {
+  color: white;
+}
+#radio-div-left {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  margin: auto;
+}
+#radio-div-right {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  margin: auto;
+}

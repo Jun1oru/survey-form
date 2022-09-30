@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="style.css">
+  <div id="div-box">
+    <h1 id="title">Football Survey Form</h1>
+    <p id="description">Thank you for taking your time to answer our questions</p>
+  </div>
+  <div id="form-box">
+    <form id="survey-form">
+      <div id="input-div">
+        <div id="name-div-left">
+          <label id="name-label">Name</label>
+        </div>
+        <div id="name-div-right">
+          <input id="name" type="text" required placeholder="Enter your name: ">
+        </div>
+        <div id="email-div-left">
+          <label id="email-label">Email</label>
+        </div>
+        <div id="email-div-right">
+          <input id="email" type="email" required placeholder="Enter your email: ">
+        </div>
+        <div id="number-div-left">
+          <label id="number-label">Age</label>
+        </div>
+        <div id="number-div-right">
+          <input id="number" type="number" min="1" max="99" placeholder="Enter your age: ">
+        </div>
+        <div id="dropdown-div">
+          <div id="dropdown-left">
+            <p id="dropdown-p">
+          Who is your favorite footballer from the list below?
+            </p>
+          </div>
+          <div id="dropdown-right">
+            <select itemtype="dropdown" id="dropdown">
+              <option>Lionel Messi</option>
+              <option>Cristiano Ronaldo</option>
+              <option>Neymar Junior</option>
+              <option>Diego Maradona</option>
+              <option>Pele</option>
+            </select>
+          </div>
+        </div>
+        <div id="radio-div">
+          <div id="radio-div-left">
+          </div>
+          <div id="radio-div-right">
+          <input type="radio" id="radiobutton1" name="radiobutton" value="radio1">
+          <label id="radio-label" for="radiobutton1">Yes</label>
+          <input type="radio" id="radiobutton2" name="radiobutton" value="radio2">
+          <label id="radio-label" for="radiobutton2">No</label>
+        </div>
+        <input type="checkbox" name="checkboxbutton" value="checkbox1">
+        <input type="checkbox" name="checkboxbutton" value="checkbox2" >
+        <textarea>
+        </textarea>
+        <input type="submit" id="submit">
+      </div>
+    </form>
+  </div>
+</html>
