@@ -111,7 +111,7 @@ body {
 }
 
 #dropdown-p {
-  color: white;
+  color: rgb(243, 0, 203);
   margin: 0 10px 0 0;
 }
 
@@ -119,7 +119,7 @@ body {
   width: 75%;
 }
 #radio-div {
-  color: white;
+  color: pink;
 }
 #radio-div-left {
   display: inline-block;
